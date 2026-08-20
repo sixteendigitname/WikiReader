@@ -1,0 +1,15 @@
+#wikireader-panel {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 400px;
+  max-height: 240px;
+  background-color: #1e1e1e;
+  color: #FFFFFF;
+  border-radius: 8px;
+  overflow: auto;
+  z-index: 2147483647;
+  resize: both;
+  min-width: 200px;
+  min-height: 150px;
+}

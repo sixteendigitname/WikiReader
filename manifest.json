@@ -1,0 +1,11 @@
+{
+  "name": "WikiReader",
+  "description": "A tool to help you remember your Wikipedia sessions better! Simply highlight lines to add them as bullet pointers.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "content_scripts":[{
+      "matches": ["*://*.wikipedia.org/*"],
+      "js": ["storage.js", "observer.js", "view.js"],
+      "css": ["styles.css"]}]
+  }
